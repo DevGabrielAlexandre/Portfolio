@@ -4,70 +4,99 @@ body{
     color: aliceblue;
     font-family:'Times New Roman', Times, serif;
 }
-/*Celular 480x854*/
-@media screen and (max-device-width: 600px) {
-    
+/*
+@media (min-width: 576px) { ... }
 
-    }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
 
-/* tablet 960x540*/
-@media screen and (min-width: 601px) and (max-width: 1000px) {
-    
-
-    
-}
-
-/* meu pc*/
-@media screen and (min-width: 1001px){
+// Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) {
     *{
         border: 0;
+        margin: 0;
+        padding: 0;
     }
     .titulo{
-        font-size: 5em;
+        font-size: 6em;
         text-align: center;
-        color: #f1ecdf;
+        color: #fff;
+    }
+    .container{
+        margin-top: 50px;
     }
     .cart{
         display: flex;
         justify-content: center;
-        align-items: center;
-        border: 1px solid #f58723;
-        height: 100%;
+        border: 3px solid #FF914D;
+        margin-bottom: 150px;
+        margin-top: 80px;
+    }
+    .perfil{
+        border-radius: 5px;
+        height: 550px;
     }
     nav{
-        width: 80vh;
-        height: 10vh;
+        width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: start;
+        justify-content: space-around;
     }
     nav a{
-        color: #f1ecdf;
+        color: #fff;
         text-decoration: none;
-        font-size: 2em;
-        margin-left: 150px;
+        font-size: 80px;
         transition-duration: 0.5s;
-
+        margin-top: 10px;
     }
     nav a:hover{
         transition-duration: 0.5s;
-        cursor:pointer;
+        transform: scale(1.1);
         color: linear-gradient(to right, #0fd850 0%, #f9f047 100%,);
     }
-
-    .text{
-
+    .diz{
+        margin-top: 40px;
+        font-size: 30px;
+        margin-left: 3%;
+    }
+    .contato{
+        height: 50px;
+        margin-top: 5%;
+    }
+    .contato img{
+        width: 90px;
+        transition-duration: 0.5s;
+    }
+    .contato img:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+    }
+    .contato a{
+        color: #fff;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 20px;
+    }
+    .contato a:hover{
+        transition-duration: 0.2s;
+        color: #FF914D;
     }
 
-
-    .logoum{
-        width: 50px;
-    }
-    .logodois{
-        width: 25px;
-    }
-
+.mesa{
+    background-color: rgb(116, 61, 35); 
+    border: 3px solid #ff4d4d;
+    text-align: center;
+}
+.nav2 a{
+    font-size: 60px;
+    margin-top: 4%;
+}
+.mesaMedalhas img{
+    width: 80%;
+}
 
 
 }
