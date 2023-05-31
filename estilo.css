@@ -1,9 +1,48 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
-    color: aliceblue;
-    font-family:'Times New Roman', Times, serif;
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, rgba(169,0,255,1)36%, rgba(60, 18, 120,100%));
+}
+.container{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+.inicio{
+    margin-top: 50px;
+}
+p{
+    font-size: 30px;
+    height: 10px;
+}
+.flex{
+    height: 140px;
+    display: flex;
+}
+
+a img{
+    height: 100px;
+    width: 100px;
+    transition: 0.5s;
+}
+a img:hover{
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.mesa{
+    margin-top: 150px;
+}
+table img{
+    width: 250px;
+}
+
+
+
+
 /*
 @media (min-width: 576px) { ... }
 
@@ -14,94 +53,9 @@ body{
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
-*/
+
 @media (min-width: 1200px) {
-    *{
-        border: 0;
-        margin: 0;
-        padding: 0;
-    }
-    .titulo{
-        font-size: 6em;
-        text-align: center;
-        color: #fff;
-    }
-    .container{
-        margin-top: 50px;
-    }
-    .cart{
-        display: flex;
-        justify-content: center;
-        border: 3px solid #FF914D;
-        margin-bottom: 150px;
-        margin-top: 80px;
-    }
-    .perfil{
-        border-radius: 5px;
-        height: 550px;
-    }
-    nav{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-    }
-    nav a{
-        color: #fff;
-        text-decoration: none;
-        font-size: 80px;
-        transition-duration: 0.5s;
-        margin-top: 10px;
-    }
-    nav a:hover{
-        transition-duration: 0.5s;
-        transform: scale(1.1);
-        color: linear-gradient(to right, #0fd850 0%, #f9f047 100%,);
-    }
-    .diz{
-        margin-top: 40px;
-        font-size: 30px;
-        margin-left: 3%;
-    }
-    .contato{
-        height: 50px;
-        margin-top: 5%;
-    }
-    .contato img{
-        width: 90px;
-        transition-duration: 0.5s;
-    }
-    .contato img:hover{
-        transform: scale(1.1);
-        transition-duration: 0.5s;
-    }
-    .contato a{
-        color: #fff;
-        font-size: 30px;
-        text-decoration: none;
-        padding: 20px;
-    }
-    .contato a:hover{
-        transition-duration: 0.2s;
-        color: #FF914D;
-    }
-
-.mesa{
-    background-color: rgb(116, 61, 35); 
-    border: 3px solid #ff4d4d;
-    text-align: center;
-}
-.nav2 a{
-    font-size: 60px;
-    margin-top: 4%;
-}
-.mesaMedalhas img{
-    width: 80%;
-}
+    
 
 
 }
-/*.color1 { #f1ecdf };
-.color2 { #d4c9ad };
-.color3 { #c7ba99 };
-.color4 { #000000 };
-.color5 { #f58723 }; */
