@@ -5,25 +5,27 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: radial-gradient(circle, rgba(169,0,255,1)36%, rgba(60, 18, 120,100%));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .container{
     color: #fff;
-    justify-content: center;
-    align-items: center;
-    font-size: 80px;
+    font-size: 80px; 
+     background: radial-gradient(circle, rgba(169,0,255,1)36%, rgba(60, 18, 120,100%));
+    width: 100vw;
+    height: 100vh;
+
 }
-.inicio{
-    margin-top: 50px;
+.in{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 p{
     font-size: 30px;
     height: 10px;
 }
-.flex{
-    height: 140px;
-    display: flex;
-}
-
 a img{
     height: 100px;
     width: 100px;
