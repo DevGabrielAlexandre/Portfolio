@@ -4,27 +4,33 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: radial-gradient(circle, rgba(169,0,255,1)36%, rgba(60, 18, 120,100%));
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #5F24A4;
 }
 .container{
+    background: radial-gradient(circle, rgba(169,0,255,1)36%, rgba(60, 18, 120,100%));
+    height: 100vh;
+    width: 100vw;
     color: #fff;
     font-size: 80px; 
-     background: radial-gradient(circle, rgba(169,0,255,1)36%, rgba(60, 18, 120,100%));
-    width: 100vw;
-    height: 100vh;
-
 }
 .in{
+    
+    color: #fff;
+    font-size: 80px; 
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+}
+.in-p1{
+    align-items: center;
+    
 }
 p{
     font-size: 30px;
-    height: 10px;
 }
 a img{
     height: 100px;
@@ -32,15 +38,33 @@ a img{
     transition: 0.5s;
 }
 a img:hover{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transition: 0.5s;
 }
-.mesa{
-    margin-top: 150px;
+.mesa {
+    text-align: center;
+    font-size: 50px;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa{
+    display: flex;
+}
+table{
+
+    
+}
+table p{
+    font-size: 25px;
+    margin: 3px;
 }
 table img{
-    width: 250px;
+    width: 235px;
+    margin: 2px;
 }
+
 
 
 
