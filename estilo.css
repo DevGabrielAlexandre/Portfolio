@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -32,13 +33,13 @@ body{
 p{
     font-size: 30px;
 }
-a img{
-    height: 100px;
-    width: 100px;
+.icon{
+    color: white;
+    font-size: 120px;
     transition: 0.5s;
 }
-a img:hover{
-    margin-bottom: 10px;
+.icon:hover{
+    transform: scale(1.1);
     transition: 0.5s;
 }
 .mesa {
@@ -72,10 +73,58 @@ table img{
 
 
 
+@media (max-width: 920px) { 
+    .in{
+        font-size: 60px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .icon{
+        color: white;
+        font-size: 50px;
+        transition: 0.5s;
+    }
+    .icon:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+ }
+
+ @media (max-width: 600px) { 
+    .in{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+.icon{
+    color: white;
+    font-size: 40px;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+    .mesa{
+        font-size: 10px;
+    }
+    .mesa img{
+        width: 20px;
+    }
+    .mesa p{
+        font-size:5px;
+    }
+    .projetos{
+        font-size: 10px;
+    }
+    .projetos img{
+        width: 30px;
+    }
+ }
 
 /*
-@media (min-width: 576px) { ... }
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 
